@@ -1,4 +1,5 @@
 this code will calculate the sum of 1 to 100
+// for loop
 
        sum = 0
         number = 1
@@ -7,5 +8,20 @@ this code will calculate the sum of 1 to 100
             sum = sum + number
         Next
         TextBox1.Text = sum
+
+    End Sub
+
+
+// while loop
+
+        sum = 0
+        number = 1
+        While (number < 101)
+            sum = sum + number
+            number += 1
+        End While
+
+        TextBox2.Text = sum
+
 
     End Sub
