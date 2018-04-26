@@ -1,0 +1,11 @@
+this code will calculate the sum of 1 to 100
+
+       sum = 0
+        number = 1
+        For number = 1 To 100
+
+            sum = sum + number
+        Next
+        TextBox1.Text = sum
+
+    End Sub
