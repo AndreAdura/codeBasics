@@ -47,3 +47,27 @@ int main() {
 	scanf("%d");
 	return 1;
 } 
+
+
+// Gauss Formula
+
+#include <stdio.h>
+int main() {
+
+	int number;
+	int sum; 
+
+	
+
+	sum = 0;
+	number = 100;
+
+	if (number > 0) {
+		sum = number * (number + 1) / 2;
+	}
+
+
+	printf("%d", sum); 
+	scanf("%d");
+	return 1;
+} 
