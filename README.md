@@ -1,2 +1,2 @@
 # codeBasics
-Basic studies of coding principlas
+Basic studies of coding principals
